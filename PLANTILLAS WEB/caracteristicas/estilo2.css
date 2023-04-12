@@ -1,0 +1,54 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.features-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.feature-item {
+	display: block;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 25px;
+
+}
+
+label {
+	background-color: navy;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+label:hover {
+	background-color: blue;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+.subfeatures-list {
+	list-style-type: none;
+	margin-top: 0;
+    margin-top: 15px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	display: none;
+}
+
+.subfeatures-list li:before {
+	content: "▹";
+	color: #0f7aff;
+	margin-right: 5px;
+}
+
+input[type="checkbox"]:checked + .subfeatures-list {
+	display: block;
+}
+  
+  

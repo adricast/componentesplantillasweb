@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario Cliente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <form class="client-form">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="client-image">Imagen del Cliente</label>
+                <input type="file" class="form-control-file" id="client-image">
+              </div>
+              <div class="form-group">
+                <label for="client-first-name">Nombres</label>
+                <input type="text" class="form-control" id="client-first-name" placeholder="Ingrese sus nombres">
+              </div>
+              <div class="form-group">
+                <label for="client-last-name">Apellidos</label>
+                <input type="text" class="form-control" id="client-last-name" placeholder="Ingrese sus apellidos">
+              </div>
+              <div class="form-group">
+                <label for="client-id">Identificación</label>
+                <input type="text" class="form-control" id="client-id" placeholder="Ingrese su identificación">
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <label for="client-doc-type">Tipo de Documento</label>
+                <select class="form-control" id="client-doc-type">
+                  <option>Cédula</option>
+                  <option>RUC</option>
+                  <option>Pasaporte</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="client-birthdate">Fecha de Nacimiento</label>
+                <input type="date" class="form-control" id="client-birthdate">
+              </div>
+              <div class="form-group">
+                <label for="client-email">Correo Electrónico</label>
+                <input type="email" class="form-control" id="client-email" placeholder="Ingrese su correo electrónico">
+              </div>
+              <div class="form-group">
+                <label for="client-address">Dirección</label>
+                <input type="text" class="form-control" id="client-address" placeholder="Ingrese su dirección">
+              </div>
+              <div class="form-group">
+                <label for="client-phone">Teléfono</label>
+                <input type="text" class="form-control" id="client-phone" placeholder="Ingrese su número de teléfono">
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+      </div>
+      
+  </body>
+</html>
