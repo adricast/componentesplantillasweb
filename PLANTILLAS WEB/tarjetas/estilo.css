@@ -1,0 +1,89 @@
+.card-container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .cards {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .card:hover {
+    border: 2px solid #ffbf00; /* Cambia el borde a un borde sólido de color naranja */
+    box-shadow: 0px 0px 10px #ffbf00; /* Añade una sombra naranja */
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-text {
+    padding: 10px;
+  }
+  
+  .card-text h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    color: #444;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .card-container {
+      overflow-x: auto;
+    }
+    .cards {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .cards::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
