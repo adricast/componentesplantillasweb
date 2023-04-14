@@ -1,0 +1,44 @@
+.servicios {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .servicio {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    width: 250px;
+  }
+  
+  .servicio:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .servicio-titulo {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .servicio img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .servicio-descripcion {
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  
