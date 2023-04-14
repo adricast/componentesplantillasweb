@@ -1,0 +1,89 @@
+/* Reset de estilos */
+* {
+	box-sizing: border-box;
+}
+
+/* Estilos para el body */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Estilos para el título */
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* Estilos para la sección de la dirección */
+.address {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	background-color: #f9f9f9;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+/* Estilos para la información de la dirección */
+.address__info {
+	flex: 1;
+	padding-right: 20px;
+}
+
+.address__info h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.address__info p {
+	margin: 0;
+}
+
+/* Estilos para el teléfono */
+.address__phone {
+	margin-top: 10px;
+}
+
+.address__phone a {
+	color: #333;
+	text-decoration: none;
+}
+
+/* Estilos para el sitio web */
+.address__website {
+	margin-top: 10px;
+}
+
+.address__website a {
+	color: #333;
+	text-decoration: none;
+}
+
+/* Estilos para el mapa */
+.address__map {
+	flex: 1;
+	margin-top: 20px;
+}
+
+.address__map iframe {
+	border: 0;
+	border-radius: 20px;
+	width: 100%;
+	height: 400px;
+}

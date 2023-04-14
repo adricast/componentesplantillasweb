@@ -1,50 +1,22 @@
-.slider {
-    display: flex;
-    height: 250px;
-    overflow: hidden;
+.slider-container {
     position: relative;
     width: 250px;
+    height: 250px; /* Puedes cambiar el valor según lo que necesites */
+    overflow: hidden;
   }
   
-  .slider img {
-    height: 250px;
-    object-fit: cover;
-    width: 250px;
+  .slider-image {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
   }
   
-  .slider img:first-child {
+  .slider-image.active {
     opacity: 1;
-  }
-  
-  .slider .slider-caption {
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: bold;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .slider .slider-caption a {
-    color: #fff;
-  }
-  
-  .slider .slider-caption a:hover {
-    text-decoration: underline;
-  }
-  
-  .slider .slider-caption p {
-    margin: 0;
-  }
-  
-  .slider .slider-caption.hide {
-    opacity: 0;
   }
   
