@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset de estilos */
 * {
 	box-sizing: border-box;
@@ -59,3 +60,66 @@ p {
 	margin: 0;
 	line-height: 1.5;
 }
+=======
+/* Reset de estilos */
+* {
+	box-sizing: border-box;
+}
+
+/* Estilos para el body */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+/* Contenedor principal */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* Estilos para las secciones */
+section {
+	margin-bottom: 60px;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los módulos */
+h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #ff8000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* Estilos para los submódulos */
+h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* Estilos para el contenido */
+p {
+	margin: 0;
+	line-height: 1.5;
+}
+>>>>>>> 5a21b0e (plantillas presntacion 2 y 3)
