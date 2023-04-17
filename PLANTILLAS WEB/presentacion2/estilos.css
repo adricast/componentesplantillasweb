@@ -1,0 +1,62 @@
+/* Estilos generales */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Estilos de la cabecera */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Estilos de la imagen central */
+.hero {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.hero img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Estilos de las tarjetas */
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	width: calc((100% / 3) - 40px);
+	max-width: 300px;
+}
+
+.card img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.card h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 1rem;
+}
