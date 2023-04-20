@@ -1,4 +1,4 @@
-var index = 1;
+		var index = 1;
 		var imagenes = document.querySelectorAll(".slider img");
 		var botones = document.querySelectorAll(".slider-nav button");
 
